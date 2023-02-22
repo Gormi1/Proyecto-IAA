@@ -28,7 +28,6 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ModelUser user = new ModelUser();
             var drives = DriveInfo.GetDrives().Where(drive => drive.IsReady && drive.DriveType == DriveType.Removable);
             if (drives.FirstOrDefault() != null)
             {
@@ -40,7 +39,7 @@ namespace WindowsFormsApp1
             else
             {
                 FormLogin login = new FormLogin();
-                if (MessageBox.Show("No se encontró la usb", "Warning",
+                if (MessageBox.Show("No se encontró la llave", "Warning",
                 MessageBoxButtons.OK, MessageBoxIcon.Warning) == DialogResult.OK) { 
                     this.Close();
                 }

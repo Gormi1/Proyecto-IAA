@@ -51,11 +51,14 @@ namespace WindowsFormsApp1
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(73, 76);
+            this.label2.Location = new System.Drawing.Point(165, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(709, 264);
+            this.label2.Size = new System.Drawing.Size(522, 264);
             this.label2.TabIndex = 10;
-            this.label2.Text = resources.GetString("label2.Text");
+            this.label2.Text = "Alumno: Jorge Humerto Cheno Ocaño\r\n\r\nIng. En Sistemas Computacionales\r\n\r\nMaestro:" +
+    " Aldo Juarez de haro\r\n\r\nNombre del proyecto: Implenetación\r\n de la IAA en un sis" +
+    "tema\r\n";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button2
             // 

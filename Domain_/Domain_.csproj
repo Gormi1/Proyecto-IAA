@@ -50,7 +50,6 @@
     <Compile Include="ModelUser.cs" />
     <Compile Include="ModelVideojuego.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ModelUsbAuth.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">

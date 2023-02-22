@@ -69,6 +69,8 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.LblUsb);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "USB";
+            this.Opacity = 0.9D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "USB";
             this.Load += new System.EventHandler(this.USB_Load);
             this.ResumeLayout(false);
